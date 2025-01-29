@@ -20,13 +20,13 @@ Create a web application that supports the following features:
     1. **List View**: Show the list of employees with options to edit or delete.
     2. **Form View**: Create and edit employee details.
 - Use **Reactive Forms** for employee creation and editing.
-- Basic styling using either **Angular Material** or **Bootstrap** is encouraged.
+- Basic styling using [**PrimeNG**](https://primeng.org/) is encouraged.
 
 ### 3. Backend Requirements
 - Use **Spring Boot** to build a RESTful API that connects to a database.
 - Implement basic CRUD endpoints for managing employees.
 - **Search API**: Implement an endpoint to search employees based on their `name` and/or `job title`.
-- Choose any database of your preference (H2, MySQL, PostgreSQL, etc.).
+- Choose any database of your preference (H2, MySQL, PostgreSQL, MongoDB, etc.).
 
 ### 4. Additional Requirements
 - Include **basic validation** for employee data both on the frontend and backend (e.g., required fields, valid email, etc.).
