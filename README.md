@@ -42,7 +42,7 @@ Good luck! If you have any questions, feel free to reach out.
 ---
 
 ### Q2: **Can I use a different front-end framework instead of Angular?**
-**A2**: **No**, the task is designed to evaluate your Angular skills, so please use Angular as specified. Feel free to use Angular Material or Bootstrap for styling.
+**A2**: **No**, the task is designed to evaluate your Angular skills, so please use Angular as specified. Feel free to use PrimeNG for styling.
 
 ---
 
