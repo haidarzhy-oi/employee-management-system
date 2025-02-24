@@ -1,0 +1,44 @@
+<form class="flex items-center gap-1" [style.maxWidth]="'50rem'" [formGroup]="formGroup" (submit)="createEmployee()">
+  <span class="p-text-secondary block mb-8">Create employee</span>
+
+    <p-inputgroup>
+      <p-inputgroup-addon>
+          <i class="pi pi-user"></i>
+      </p-inputgroup-addon>
+      <input pInputText
+        formControlName="firstName"
+        placeholder="First name" />
+    </p-inputgroup>
+
+    <p-inputgroup>
+      <p-inputgroup-addon>
+          <i class="pi pi-user"></i>
+      </p-inputgroup-addon>
+      <input pInputText
+        formControlName="lastName"
+        placeholder="Last name" />
+    </p-inputgroup>
+
+    <p-inputgroup>
+      <p-inputgroup-addon>
+          <i class="pi pi-briefcase"></i>
+      </p-inputgroup-addon>
+      <input pInputText
+        formControlName="jobTitle"
+        placeholder="Job title" />
+    </p-inputgroup>
+
+    <p-inputgroup>
+      <p-inputgroup-addon>
+          <i class="pi pi-money-bill"></i>
+      </p-inputgroup-addon>
+      <input pInputText
+        formControlName="salary"
+        placeholder="Salary" />
+    </p-inputgroup>
+    <div class="flex justify-end gap-2" [style.paddingTop]="'1rem'">
+      <p-button label="Save" [type]="'submit'" />
+  </div>
+</form>
+
+<p-toast />
